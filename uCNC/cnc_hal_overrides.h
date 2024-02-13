@@ -7,6 +7,7 @@ extern "C"
 
 #include "cnc_hal_reset.h"
 #define DISABLE_ALL_CONTROLS
+#define DISABLE_ALL_LIMITS
 #define LIMIT_X_PULLUP_ENABLE
 #define LIMIT_Y_PULLUP_ENABLE
 #define LIMIT_X2_PULLUP_ENABLE

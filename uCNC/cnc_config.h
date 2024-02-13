@@ -294,7 +294,7 @@ extern "C"
 	 *   - home commands (G28 and G30)
 	 *   - disable G10. This affects coordinate systems and home as it's not possible to define them.
 	 */
-	// #define DISABLE_ARC_SUPPORT
+	 #define DISABLE_ARC_SUPPORT
 	 #define DISABLE_PROBING_SUPPORT
 	 #define DISABLE_COORD_SYS_SUPPORT
 	// #define DISABLE_HOME_SUPPORT
@@ -318,7 +318,7 @@ extern "C"
 	 * */
 	// #define ENABLE_MAIN_LOOP_MODULES
 	// #define ENABLE_IO_MODULES
-	// #define ENABLE_PARSER_MODULES
+	 #define ENABLE_PARSER_MODULES
 	// #define ENABLE_MOTION_CONTROL_MODULES
 
 	/**

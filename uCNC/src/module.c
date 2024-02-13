@@ -43,6 +43,7 @@ static FORCEINLINE void load_modules(void)
 #ifdef LOAD_MODULES_OVERRIDE
 	LOAD_MODULES_OVERRIDE();
 #endif
+	LOAD_MODULE(m17_m18);
 }
 
 void mod_init(void)
