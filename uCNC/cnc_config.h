@@ -294,11 +294,11 @@ extern "C"
 	 *   - disable G10. This affects coordinate systems and home as it's not possible to define them.
 	 */
 	// #define DISABLE_ARC_SUPPORT
-	// #define DISABLE_PROBING_SUPPORT
-	// #define DISABLE_COORD_SYS_SUPPORT
+	 #define DISABLE_PROBING_SUPPORT
+	 #define DISABLE_COORD_SYS_SUPPORT
 	// #define DISABLE_HOME_SUPPORT
-	// #define DISABLE_G10_SUPPORT
-	// #define DISABLE_PATH_MODES
+   #define DISABLE_G10_SUPPORT
+	 #define DISABLE_PATH_MODES
 
 	/**
 	 * enable step counting on sync motion command (needed for some Gcode extensions like G33)
@@ -498,7 +498,7 @@ extern "C"
  * Uncomment to invert Emergency stop button
  * */
 #ifndef INVERT_EMERGENCY_STOP
-// #define INVERT_EMERGENCY_STOP
+ #define INVERT_EMERGENCY_STOP
 #endif
 
 	/**
@@ -509,10 +509,10 @@ extern "C"
 // #define DISABLE_ALL_CONTROLS
 #endif
 #ifndef DISABLE_ALL_LIMITS
-// #define DISABLE_ALL_LIMITS
+ #define DISABLE_ALL_LIMITS
 #endif
 #ifndef DISABLE_PROBE
-// #define DISABLE_PROBE
+ #define DISABLE_PROBE
 #endif
 
 	/**
